@@ -1,0 +1,227 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1143px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 27px;
+
+}
+
+.header-logo{
+    display: block;
+    background-image: url(../images/logo.svg);
+    width: 97px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-nav {
+    display: flex;
+    padding-left: 0;
+    gap: 54px;
+}
+
+.header-nav a {
+    position: relative;
+    color: #2B3541;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-nav a:hover {
+    cursor: pointer;
+    top: -5px;
+    border-bottom: 1px #2B3541 solid;
+    padding-bottom: 5px;
+    
+}
+
+.header li {
+    list-style: none;
+}
+
+.social {
+    display: flex;
+    gap: 30px;
+    padding-left: 0;
+}
+
+.insta {
+    display: block;
+    background-image: url(../images/insta.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+    transform: scale(1);
+    opacity: 0.8;
+}
+
+.fb {
+    display: block;
+    background-image: url(../images/fb.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+    transform: scale(1);
+    opacity: 0.8;
+}
+
+.insta:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.fb:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.banner {
+    position: relative;
+    height: 850px;
+}
+
+.banner-text {
+    display: inline-block;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 48px;
+    width: 676px;
+    color: #2B3541;
+    text-transform: uppercase;      
+}
+
+.banner-other-title {
+    font-weight: 400;
+    font-size: 40px;
+    color: #2B3541;
+}
+
+.banner-text-button {
+    margin-left: 91px;
+}
+
+.text-btn {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B3541;    
+}
+
+.banner-btn {
+    background-color: #FBF138;
+    border: none;
+    width: 252px;
+    height: 64px;
+}
+
+.banner-btn-text {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 0; 
+}
+
+.rectangle {
+    display: inline-block;
+    position: absolute;
+    width: 464px;
+    height: 850px;
+    background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+    opacity: 0.2;   
+}
+
+.picture {
+    position: absolute;
+    width: 996px;
+    height: 852px;
+    right: -50px;
+    bottom: 0;
+}
+
+.events-title {
+    color: #2B3541;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.events-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.events-grid-first-item {
+    width: 367.32px;
+    height: 600px;
+    background-image: url(../images/@1x/maraphon.png);
+    background-size: contain;
+}
+
+.events-grid-second-item {
+    width: 367.32px;
+    height: 600px;
+    background-image: url(../images/@1x/vebinar.png);
+    background-size: contain;
+}
+
+.events-grid-third-item {
+    width: 367.32px;
+    height: 600px;
+    background-image: url(../images/@1x/yoga.jpg);
+    background-size: cover;
+}
+
+.date {
+    color: #2B3541;
+    font-weight: 700;
+    font-size: 18px;
+    opacity: 0.6;
+    margin-left: 30px;
+}
+
+.grid-title {
+    color: #2B3541;
+    font-weight: 700;
+    font-size: 28px;
+    width: 260px;
+    margin-left: 30px;
+}
+
+.events-grid-button {
+    background: #FBF138;
+    border: none;
+    width: 122.11px;
+    height: 47px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.events-grid-text {
+    color: #2B3541;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
