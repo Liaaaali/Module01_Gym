@@ -61,7 +61,7 @@ body {
 
 .insta {
     display: block;
-    background-image: url(../images/insta.svg);
+    background-image: url(../images/icons/insta.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 30px;
@@ -73,7 +73,7 @@ body {
 
 .fb {
     display: block;
-    background-image: url(../images/fb.svg);
+    background-image: url(../images/icons/fb.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 30px;
@@ -130,6 +130,7 @@ body {
 
 .banner-btn {
     background-color: #FBF138;
+    box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
     border: none;
     width: 252px;
     height: 64px;
@@ -303,10 +304,16 @@ body {
     position: absolute;
     width: 53px;
     height: 53px;
-    color: #FBF138;
+    border-radius: 50%;
+    background-color: #FBF138;
+    box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+    margin-left: 242px;
+    margin-top: 62px;
+    
 }
 
 .subscription-title {
+    position: relative;
     font-weight: 700;
     font-size: 40px;
     color: #2B3541;
@@ -329,11 +336,12 @@ input[type="email"] {
 .input[type="email"]::placeholder {
     font-weight: 400;
     font-size: 18px;
-    color: #2B3541;
+    color:#2B3541;
     opacity: 0.3;
+    padding-left: 20px;
 }
 
-.subscription-button {
+.subscription-btn {
     width: 225px;
     height: 65px;
     background: #FBF138;
@@ -341,7 +349,7 @@ input[type="email"] {
     border: none;      
 }
 
-.subscription-button-text {
+.subscription-btn-text {
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
@@ -351,28 +359,103 @@ input[type="email"] {
 .subscription-agreement {
     display: flex;
     gap: 4px;
+    margin-left: 270px;
     align-items: center;
 }
 
-.checkbox {
+.agreement-text {
+    color: #2B3541;
+    opacity: 0.5;
+}
+
+.personal_data {
+    text-decoration: underline;
+    color: #2B3541;
+  }
+
+/* input */
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
     
 }
 
-.input [type="checkbox"] {
-    border: 2px solid #2B3541;
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
     width: 18px;
     height: 18px;
-}
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #2B3541;
+    margin-right: 6px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+  }
 
+  .custom-checkbox+label:hover {
+    cursor: pointer;
+  }
 
+  .custom-checkbox:checked+label::before {
+    border-color: #2B3541;
+    background-color: #2B3541;
+    background-image: url(../images/icons/check_box.svg);   
+  }
 
-
-
+  
 
 
  /*about us*/
 
+ .about-us-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #2B3541;
+    padding-top: 160px;
+    margin: 0 auto;
+ }
+
+ 
+ .sign-up-btn {
+    position: absolute;
+    width: 225px;
+    height: 65px;
+    background: #FBF138;
+    box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+    border: none;
+    margin-top: 50px;
+ }
+
+ .about-us-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B3541;
+    position: absolute;
+    width: 483px;
+    height: 108px;
+    padding-top: 19px;
+    margin: 0 auto;
+
  .about-us-picture {
     width: 581px;
     height: 335px;
+    display: flex;
  }
+
+ .about-us-grid {
+    display: flex;
+    gap: 67px;
+ }
+
+
+
+
