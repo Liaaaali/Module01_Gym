@@ -449,11 +449,27 @@ input[type="email"] {
     width: 581px;
     height: 335px;
     display: flex;
+    display: inline-block;
+    position: absolute;
  }
 
  .about-us-grid {
     display: flex;
     gap: 67px;
+ }
+
+ .about-us-grid-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2B3541;
+ }
+
+ .about-us-grid-item-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B3541;
+    opacity: 0.6;
+    
  }
 
 
