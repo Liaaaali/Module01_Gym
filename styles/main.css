@@ -690,6 +690,14 @@ input[type="email"] {
     font-size: 14px;
 }
 
+.footer-nav a:hover {
+    cursor: pointer;
+    top: -5px;
+    border-bottom: 1px #2B3541 solid;
+    padding-bottom: 5px;
+    
+}
+
 .footer li {
     list-style: none;
 }
