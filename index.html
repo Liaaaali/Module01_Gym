@@ -10,6 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" sizes="150x150" href="favicon/mstile-150x150.png">
+    <link rel="icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
    <header>
@@ -37,18 +47,16 @@
    </header>
    <main class="banner">
     <div class="container">
-        <div class="banner-text">
+        <div class="banner-content">
             <h1 class="banner-title">онлайн тренировки любой сложности</h1>
-            <h2 class="banner-other-title">&gt; 15 тренировок</h2>
+            <h2 class="banner-subtitle">&gt; 15 тренировок</h2>
             <div class="banner-text-button">
-                <p class="text-btn">в области спортивной физиологии и нутрициологии</p>
-                <button type="button" class="banner-btn">
-                    <span class="banner-btn-text">узнать подробнее</span>
-                </button>
+                <p class="text">в области спортивной физиологии и нутрициологии</p>
+                <a href="#" class="banner-button">узнать подробнее</a>
             </div>
-            <span class="arrow">
+            <a href="#clubevents" class="arrow">
                 <img src="images/icons/arrow.svg" alt="Стрелка">
-            </span> 
+            </a>
         </div>
         <div class="rectangle"></div>
         <div class="picture">
@@ -65,37 +73,31 @@
             <div class="events-grid-item">
                 <div class="events_item_cover marathon">
                     <p class="date">29.06 - 4.07</p>
-                    <h1 class="grid-title">Марафон выносливости</h1>
-                    <button type="button" class="events-grid-hover-button">
-                        <span class="events-grid-hover-button-text">записаться</span>
-                    </button>
-                    <button type="button" class="events-grid-button">
-                        <span class="events-grid-text">марафон</span>
-                    </button>
-                </div> 
+                    <h2 class="grid-title">Марафон выносливости</h2>
+                    <div class="events-grid-item-hover">
+                        <a href="#" class="events-grid-hover-button">записаться</a>
+                    </div>
+                    <div class="events-grid-button">марафон</div>
+                </div>
             </div>
             <div class="events-grid-item">
                 <div class="events_item_cover vebinar">
                     <p class="date">9.07</p>
-                    <h1 class="grid-title">Как стать тренером?</h1>
-                    <button type="button" class="events-grid-hover-button">
-                        <span class="events-grid-hover-button-text">записаться</span>
-                    </button>
-                    <button type="button" class="events-grid-button">
-                        <span class="events-grid-text">вебинар</span>
-                    </button>
+                    <h2 class="grid-title">Как стать тренером?</h2>
+                    <div class="events-grid-item-hover">
+                        <a href="#" class="events-grid-hover-button">записаться</a>
+                    </div>
+                    <div class="events-grid-button">вебинар</div>
                 </div>  
             </div>
             <div class="events-grid-item">
                 <div class="events_item_cover yoga">
                     <p class="date">15.07</p>
-                    <h1 class="grid-title">Йога как стиль жизни</h1>
-                    <button type="button" class="events-grid-hover-button">
-                        <span class="events-grid-hover-button-text">записаться</span>
-                    </button>
-                    <button type="button" class="events-grid-button">
-                        <span class="events-grid-text">вебинар</span>
-                    </button>  
+                    <h2 class="grid-title">Йога как стиль жизни</h2>
+                    <div class="events-grid-item-hover">
+                        <a href="#" class="events-grid-hover-button">записаться</a>
+                    </div>
+                    <div class="events-grid-button">вебинар</div>
                 </div>
             </div>
         </div>
@@ -163,9 +165,7 @@
             <form class="subscription-form">
                 <div class="subscription-form-body">
                     <input class="input" type="email" placeholder="Ваш e-mail">
-                    <button type="subscribe" class="subscription-btn">
-                    <span class="subscription-btn-text">подписаться</span>
-                    </button>
+                    <a href="#" type="submit" class="subscription-btn">подписаться</a>
                 </div>
             </form>
             <div class="subscription-agreement">
@@ -182,9 +182,7 @@
             <div class="about-us-sign-up">
                 <h2 class="about-us-title">О компании</h2>
                 <p class="about-us-text">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы проводим не только онлайн-тренировки</p>
-                <button type="button" class="sign-up-btn">
-                    <span class="button-text">записаться</span>
-                </button>
+                <a href="#" class="sign-up-btn">записаться</a>
             </div>
             <div class="about-us-picture">
                 <img src="images/@1x/trainer.png" alt="Боксер">
@@ -236,10 +234,11 @@
                 </div>
                 <div class="copyright">
                     <p class="cr">© 2022, Все права защищены</p>
-                    <p class="annblok">Сделано в рамках курса учебной платформы Annblok</p>
+                    <p class="annblok">Сделано в рамках курса учебной платформы <a href="#" class="annblok-link">Annblok</a></p>
                 </div>
             </div>
         </div>
+    </div>
    </footer>
 </body>
 </html>
