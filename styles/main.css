@@ -68,8 +68,7 @@ body {
     background-size: cover;
     width: 30px;
     height: 30px;
-    trans
-    : scale(1);
+    transform: scale(1);
     transition: 0.3s;
     opacity: 0.8;
 }
