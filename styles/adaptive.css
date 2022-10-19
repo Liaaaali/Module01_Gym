@@ -254,30 +254,30 @@
         margin-top: 106px;
     }
 
+    .mail-box {
+        max-width: 340px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
     .subscription-title::before {
         width: 31px;
         height: 31px;
-        left: -18px;
-        top: -10px;
+        left: 51px;
+        top: -12px;
         
     }
 
     .subscription-title {
         font-size: 26px;
-        width: 201px;
-        padding-left: 0;
-        padding-top: 0;
         margin-top: -25px;
         margin-bottom: 50px;
 
     }
 
     .subscription-form {
-        margin: 0 auto;
-        display: flex;
         flex-direction: column;
-        align-items: stretch;
-        max-width: 360px;
     }
 
     .email-plus-checkbox {
@@ -296,7 +296,6 @@
 
     .subscription-btn {
         order: 3;
-        width: 255px;
         margin-top: 36px;
         
     }
@@ -623,13 +622,19 @@
         height: 114px;
     }
 
-    .schedule-icon {
+    .schedule-content {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .schedule-content-image {
        transform: scale(0.5);
        padding-left: 0;
        padding-bottom: 0;
     }
 
-    .schedule-item-name {
+    .schedule-content-title {
         font-size: 16px;
         left: 46px;
         padding-bottom: 28px;

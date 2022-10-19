@@ -379,9 +379,11 @@ body {
    
 
 .schedule-item {
-    border: 1px solid #2B3541;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(43, 53, 65, .5);
     padding: 20px 30px;
-    opacity: 0.5;
     position: relative;
     box-sizing: border-box;
 }
@@ -432,7 +434,7 @@ body {
     color: #2B3541;
 }
 
-.schedule-item-name {
+.schedule-content-title {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -441,7 +443,7 @@ body {
     color: #2B3541;
 }
 
-.schedule-icon {
+.schedule-content-image {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -463,10 +465,6 @@ body {
     align-items: center;
 }
 
-.subscription-header {
-    position: relative;
-}
-
 
 .subscription-title::before {
     content: "";
@@ -477,7 +475,7 @@ body {
     background-color: #FBF138;
     box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
     z-index: -1;
-    left: -35px;
+    left: -22px;
     top: -21px;
     
 }
@@ -573,7 +571,7 @@ input[type="email"]:invalid {
 }
 
 .personal_data {
-    color: #2B3541;
+    color: rgb(43, 53, 65);
   }
 
 .personal_data:hover {
