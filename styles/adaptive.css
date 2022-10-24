@@ -522,6 +522,12 @@
 
 }
 
+@media (max-width: 700px) {
+    .schedule-content-title {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 664px) {
     .picture {
         left: -50px;
@@ -608,8 +614,6 @@
         background-image: url(../images/@2x/Vebinar\ 2.png);
         background-size: cover;
     }
-
-
 }
 
 @media (max-width: 550px) {
@@ -622,22 +626,23 @@
         height: 114px;
     }
 
+    .schedule-content-image-desctop {
+        display: none;
+    }
+
+    .schedule-content-image-mobile {
+        display: block;
+        position: relative;
+    }
+
+    .schedule-content-title {
+        position: relative;
+    }
+
     .schedule-content {
         display: flex;
         align-items: center;
         gap: 15px;
-    }
-
-    .schedule-content-image {
-       transform: scale(0.5);
-       padding-left: 0;
-       padding-bottom: 0;
-    }
-
-    .schedule-content-title {
-        font-size: 16px;
-        left: 46px;
-        padding-bottom: 28px;
     }
 
     .subscription {

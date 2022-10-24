@@ -439,16 +439,22 @@ body {
     bottom: 0;
     left: 0;
     font-weight: 700;
+    font-size: 18px;
     padding: 20px 30px;
     color: #2B3541;
+    margin: 0 auto;
 }
 
-.schedule-content-image {
+.schedule-content-image-desctop {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding-bottom: 79px;
+    padding-bottom: 80px;
     padding-left: 30px;
+}
+
+.schedule-content-image-mobile {
+    display: none;
 }
 
 /*subscription*/
