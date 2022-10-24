@@ -102,6 +102,7 @@ body {
     position: relative;
     height: 850px;
     margin-top: 12px;
+    overflow: hidden;
 }
 
 .banner-rectangle {
