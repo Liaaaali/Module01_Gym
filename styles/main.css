@@ -83,6 +83,7 @@ body {
     transform: scale(1);
     transition: 0.3s;
     opacity: 0.8;
+    
 }
 
 .insta:hover {
