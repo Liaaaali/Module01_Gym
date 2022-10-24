@@ -75,14 +75,14 @@ body {
 
 .fb {
     display: block;
-    background-image: url(../images/icons/fb.svg);
+    background-image: url(../images/icons/FB.svg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 30px;
     height: 30px;
     transform: scale(1);
     transition: 0.3s;
-    opacity: 0.8;
+    opacity: 0.8; 
     
 }
 
@@ -574,16 +574,15 @@ input[type="email"]:invalid {
     font-weight: 400;
     font-size: 11px;
     line-height: 150%;
-    color: #2B3541;
-    opacity: 0.5;
+    color: rgb(43, 53, 65, .5);
 }
 
 .personal_data {
-    color: rgb(43, 53, 65);
+    color: rgb(43, 53, 65, .5);
   }
 
 .personal_data:hover {
-    opacity: 1;
+    color: rgba(43, 53, 65, 1);
     cursor: pointer;
 }
 
