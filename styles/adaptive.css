@@ -640,9 +640,11 @@
     }
 
     .schedule-content {
-        display: flex;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(46px 240px);
+        grid-template-rows: repeat(1, 1fr);
         align-items: center;
-        gap: 15px;
     }
 
     .subscription {
