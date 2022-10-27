@@ -73,19 +73,7 @@ body {
     opacity: 0.8;
 }
 
-.fb {
-    display: block;
-    background-image: url(../images/icons/fb.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-    transform: scale(1);
-    transition: 0.3s;
-    opacity: 0.8; 
-    
-}
-
+.
 .insta:hover {
     transform: scale(1.2);
     opacity: 1;
