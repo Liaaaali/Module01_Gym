@@ -73,11 +73,7 @@
             margin-left: calc(48px + 374 * ((100vw - 1140px) * 0.2 / 1595));
             height: 99.3%;
         }
-        .banner__gradient-rigt {
-            width: calc(152px + 62 * ((100vw - 768px)  / 1140));
-            right: calc(114px + 108 * ((100vw - 768px) / 1140));
-            height: 99.3%;
-        }
+        
         .banner-title {
             font-size: calc(26px + 16 * ((100vw - 768px) / 1140));
             letter-spacing: -0.5px;
@@ -123,6 +119,11 @@
     }
 
     @media (max-width: 1060px) {
+
+    /* Schedule */
+    .yoga {
+        background-image: url(../images/@1x/yoga_long.png)
+    }
 
 
     /* Events */
@@ -183,16 +184,6 @@
 
     .events_grid_add {
         display: block;
-    }
-
-
-    .marathon {
-
-    }
-
-    .yoga {
-        background-image: url(../images/@2x/yoga.png);
-        background-size: cover;
     }
 
     /* Schedule */
@@ -335,6 +326,8 @@
             max-width: 81%;
             margin-top: 100px;
         }
+    
+    
     }   
 
     @media (max-width: 1000px) {    
@@ -526,17 +519,18 @@
         box-shadow: none;
     }
 
-    .yoga {
-        background-image: url(../images/@2x/Vebinar\ 2.png);
-        background-size: cover;
-    }
 }
 
     @media (max-width: 550px) {
-            .schedule-grid {
-                display: flex;
-                flex-direction: column;
-            }
+
+        .yoga {
+            background-image: url(../images/@1x/yoga2.png);
+        }
+
+        .schedule-grid {
+            display: flex;
+            flex-direction: column;
+        }
 
         .schedule-item {
             height: 114px;
@@ -618,71 +612,66 @@
             margin-left: 0px;
             height: 99.1%;
         }
-        .banner__gradient-rigt {
-            width: 34.412%;
-            right: 0px;
-            height: 99.1%;
-        }
+
     }
     
 
+    @media (max-width: 490px) {
 
-@media (max-width: 490px) {
+        /* Header */
+        .header-burger {
+            margin-left: -40px;
+        }
 
-    /* Header */
-    .header-burger {
-        margin-left: -40px;
+        .about-us-text {
+            width: 340px;
+        }
+
+        .about-us-grid {
+            width: 340px;
+        }
     }
 
-    .about-us-text {
-        width: 340px;
+    @media(max-width: 438px) {
+        .banner-body {
+            width: 100%;
+        }
+        .banner-title {
+            font-size: 26px;
+            letter-spacing: 0.02em;  
+        }
     }
 
-    .about-us-grid {
-        width: 340px;
-    }
-}
+    @media (max-width: 380px) {
 
-@media(max-width: 438px) {
-    .banner-body {
-        width: 100%;
-    }
-    .banner-title {
-        font-size: 26px;
-        letter-spacing: 0.02em;  
-    }
-}
+        .footer-nav {
+            gap: 40px;
+        }
 
-@media (max-width: 380px) {
+        .contacts {
+            width: 307px;
+        }
 
-    .footer-nav {
-        gap: 40px;
+        .footer .social {
+            padding-left: 39%;
+        }
     }
 
-    .contacts {
-        width: 307px;
+
+    @media (max-width: 350px) {
+
+        .footer-nav {
+            gap: 23px;
+        }
+
+        .contacts {
+            width: 282px;
+        }
+
+        .footer .social {
+            padding-left: 32%;
+        }
     }
-
-    .footer .social {
-        padding-left: 39%;
-    }
-}
-
-
-@media (max-width: 350px) {
-
-    .footer-nav {
-        gap: 23px;
-    }
-
-    .contacts {
-        width: 282px;
-    }
-
-    .footer .social {
-        padding-left: 32%;
-    }
-}
 
   
     

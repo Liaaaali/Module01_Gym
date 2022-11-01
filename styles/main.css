@@ -195,28 +195,13 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    transition: 0.5s; 
+    transition: 0.5s;
+    z-index: 1; 
 }
 
 .arrow:hover {
     cursor: pointer;
 }
-
-/* Arrow 
-
-.banner-arrow {
-    
-    position: absolute;
-    width: 52px;
-    height: 55px;
-    background-image: url(../images/icons/arrow.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 100%;
-    bottom: 0 ;  
-}
-
-*/
 
 /*events*/
 
@@ -260,17 +245,17 @@ body {
 }
 
 .marathon {
-    background-image: url(../images/@1x/maraphon.png);
+    background-image: url(../images/@2x/maraphon@2x.png);
     
 }
 
 .vebinar {
-    background-image: url(../images/@1x/vebinar.png);
+    background-image: url(../images/@2x/vebinar@2x.png);
     
 }
 
 .yoga {
-    background-image: url(../images/@1x/yoga.png);
+    background-image: url(../images/@2x/yoga@2x.png);
 }
 
 .gradient {
@@ -551,7 +536,6 @@ input[type="email"]:invalid {
 }
 
 
-
 .subscription-btn {
     background-color: #FBF138;
     box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.2);
@@ -733,8 +717,7 @@ input[type="email"]:invalid {
     height: 149px;
     width: 100%;
     margin-top: 160px;
-    
-    }
+}
 
 
  .firstrow {
