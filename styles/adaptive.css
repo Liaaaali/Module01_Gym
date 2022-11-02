@@ -79,16 +79,6 @@
             letter-spacing: -0.5px;
         }
 
-        /*
-        .title__timetable  {
-            font-size: calc(26px + 16 * ((100vw - 768px) / 1140));
-        }
-        .data {
-            font-size: calc(16px + 16 * ((100vw - 768px) / 1140));
-        }
-
-        */
-
         .arrow { 
             -webkit-transform: scale(0.7);
             -ms-ransform: scale(0.7);
@@ -121,6 +111,16 @@
     @media (max-width: 1060px) {
 
     /* Schedule */
+
+    .marathon {
+        background-image: url(../images/@1x/maraphon.png);
+        
+    }
+    
+    .vebinar {
+        background-image: url(../images/@1x/vebinar.png);
+        
+    }
     .yoga {
         background-image: url(../images/@1x/yoga_long.png)
     }
