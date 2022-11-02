@@ -137,7 +137,8 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 309px 336px;
         row-gap: 10px;
-        column-gap: 20px;
+        -moz-column-gap: 20px;
+             column-gap: 20px;
         padding-top: 0px;
     }
 
@@ -556,7 +557,8 @@
             grid-template-columns: repeat(1, 48px 250px);
             grid-template-rows: 36px;
             align-items: center;
-            column-gap: 10px;
+            -moz-column-gap: 10px;
+                 column-gap: 10px;
         
         }
 
