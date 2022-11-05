@@ -112,6 +112,10 @@
 
     /* Schedule */
 
+    .events-grid-hover-button {
+        display: none;
+    }
+
     .marathon {
         background-image: url(../images/@1x/maraphon.png);
         
@@ -524,6 +528,11 @@
 
     @media (max-width: 550px) {
 
+        .container {
+        padding-left: 10px;
+        padding-right: 10px;  
+        }
+
         .yoga {
             background-image: url(../images/@1x/yoga2.png);
         }
@@ -645,6 +654,19 @@
 
     @media (max-width: 380px) {
 
+        .input[type="email"] {
+            max-width: 310px;
+        }
+
+        .about-us-text {
+            width: 310px;
+        }
+
+
+        .sign-up-btn {
+            padding: 21px 95px;
+        }
+
         .footer-nav {
             gap: 40px;
         }
@@ -656,6 +678,11 @@
         .footer .social {
             padding-left: 39%;
         }
+
+       
+
+        
+
     }
 
 
