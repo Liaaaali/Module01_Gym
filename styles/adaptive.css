@@ -71,7 +71,7 @@
         .rectangle {
             width: calc(344px + 330 * ((100vw - 768px) / 1140));
             margin-left: calc(48px + 374 * ((100vw - 1140px) * 0.2 / 1595));
-            height: 99.3%;
+            height: 99%;
         }
         
         .banner-title {
@@ -340,6 +340,10 @@
             margin: 0 auto;
         }
 
+        .header {
+            margin-bottom: 30px;
+        }
+
 
         .header-logo {
             width: 78px;
@@ -438,6 +442,10 @@
 
     @media (max-width: 766px) {
 
+        .header {
+            margin-bottom: 40px;
+        }
+
         .about-us-text {
             width: 420px;
         }
@@ -533,6 +541,7 @@
         padding-right: 10px;  
         }
 
+
         .yoga {
             background-image: url(../images/@1x/yoga2.png);
         }
@@ -578,6 +587,10 @@
 
     @media(max-width:526px) {
 
+        .header {
+            margin-bottom: 0px;
+        }
+
         .banner {
             flex-direction: column;
             padding-left: 10px;
@@ -614,14 +627,20 @@
         }
         .banner-image img {
             min-width: 100%;
+            margin-top: 18px;
         }
+
         .arrow {
             display: none;
         }
         .rectangle {
             width: 99.65%;
             margin-left: 0px;
-            height: 99.1%;
+            height: 98.5%;
+        }
+
+        .events {
+            margin-top: 130px;
         }
 
     }
